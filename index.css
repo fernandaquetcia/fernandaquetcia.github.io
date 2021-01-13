@@ -1,0 +1,54 @@
+/*Selector {
+	Property: value;
+}*/
+* {
+	text-align: right;
+}
+
+body {
+	background-image: url(https://images.unsplash.com/photo-1608463026422-8f43ab4ebac0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80);
+	background-size: cover;
+	color: #2E6565;
+	font-family: 'Amatic SC'
+
+}
+
+
+h1  {
+	color: #F8D07D;
+	text-align: center;
+	border-bottom: 2px solid rgb(6, 30, 71, 0.02);
+	cursor: pointer;
+	font-family: 'Sacramento', cursive;
+	font-size: 300%;
+	}
+
+	#div1 {
+		font-family: 'Amatic SC';
+		font-size: 210%;
+	}
+
+	#div2 {
+		font-family: 'Amatic SC';
+		font-size: 150%;
+	}
+
+p {
+	text-align: center;
+	font-family: 'Amatic SC';
+	font-size: 170%
+
+}
+ul {
+	text-align: left;
+}
+li {
+	list-style: none;
+	text-align: left;
+}
+img {
+	transition: all 1s;
+}
+img:hover {
+	transform: scale(1.1);
+}
